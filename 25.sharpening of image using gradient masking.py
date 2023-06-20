@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Load the image
-image = cv2.imread("C:/Users/Raja/OneDrive/Documents/computer vision/WhatsApp Image 2022-03-18 at 6.54.12 AM.jpeg")
+image = cv2.imread("C:/Users/arsh/OneDrive/Documents/computer vision/WhatsApp Image 2022-03-18 at 6.54.12 AM.jpeg")
 
 # Define the kernels
 kernel1 = np.array([[-1, -2, -1], [0, 0, 0], [1, 2, 1]])
