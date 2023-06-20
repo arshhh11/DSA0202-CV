@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Load the image
-image = cv2.imread("C:/Users/Raja/OneDrive/Documents/computer vision/WhatsApp Image 2022-03-18 at 6.54.12 AM.jpeg", cv2.IMREAD_GRAYSCALE)
+image = cv2.imread("C:/Users/arsh/OneDrive/Documents/computer vision/WhatsApp Image 2022-03-18 at 6.54.12 AM.jpeg", cv2.IMREAD_GRAYSCALE)
 
 # Define the kernel for dilation
 kernel_size = (3, 3)  # Adjust the kernel size as desired
