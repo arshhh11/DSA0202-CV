@@ -2,8 +2,8 @@ import cv2
 import numpy as np
 
 # Load the original image and the watermark image
-original_image = cv2.imread("C:/Users/Raja/OneDrive/Documents/computer vision/WhatsApp Image 2022-03-18 at 6.54.12 AM.jpeg")
-watermark_image = cv2.imread("C:/Users/Raja/OneDrive/Documents/computer vision/watermark-styles.jpg", cv2.IMREAD_UNCHANGED)
+original_image = cv2.imread("C:/Users/arsh/OneDrive/Documents/computer vision/WhatsApp Image 2022-03-18 at 6.54.12 AM.jpeg")
+watermark_image = cv2.imread("C:/Users/arsh/OneDrive/Documents/computer vision/watermark-styles.jpg", cv2.IMREAD_UNCHANGED)
 
 # Resize the watermark image to an appropriate size
 resized_watermark = cv2.resize(watermark_image, (100, 100))
