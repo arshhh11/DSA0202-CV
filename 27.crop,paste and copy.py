@@ -1,8 +1,8 @@
 import cv2
 import numpy as np
 
-img = cv2.imread('C:/Users/Raju/OneDrive/Documents/computer vision/WhatsApp Image 2022-03-18 at 6.54.12 AM.jpeg')
-logo = cv2.imread('C:/Users/Raju/OneDrive/Documents/computer vision/watermark-styles.jpg')
+img = cv2.imread('C:/Users/arsh/OneDrive/Documents/computer vision/WhatsApp Image 2022-03-18 at 6.54.12 AM.jpeg')
+logo = cv2.imread('C:/Users/arsh/OneDrive/Documents/computer vision/watermark-styles.jpg')
 logo_h, logo_w = logo.shape[:2]
 x_offset = 50
 y_offset = 100
