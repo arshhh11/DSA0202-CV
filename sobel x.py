@@ -2,7 +2,7 @@ import cv2
 import numpy as np
 
 # Load the image
-img = cv2.imread("C:/Users/Raju/Downloads/wallpaperflare.com_wallpaper.jpg")
+img = cv2.imread("C:/Users/arsh/Downloads/wallpaperflare.com_wallpaper.jpg")
 
 # Apply Sobel filter along the X-axis
 sobelx = cv2.Sobel(img, cv2.CV_64F, 1, 0, ksize=3)
